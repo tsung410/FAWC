@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 14px;
+  color: #334155;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #cbd5e1;
+}
+
+#header {
+  position: sticky;
+  top: 0;
+  height: 49px;
+  background-color: #0284c7;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  z-index: 1;
+}
+
+#left-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 49px;
+  width: 220px;
+  height: 100%;
+  background-color: white;
+}
+
+#main {
+  margin-left: 220px;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-indent: 2px;
+}
+
+.nav-link-sm {
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-indent: 1px;
+}
+
+.ribbon {
+  background-color: white;
+  min-height: 40px;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 1rem;
+}
+
+.p-4 {
+  padding: 1.5rem;
+}
+
+.p-5 {
+  padding: 3rem;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-1 {
+  margin: 0.25rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.m-3 {
+  margin: 1rem;
+}
+
+.m-4 {
+  margin: 1.5rem;
+}
+
+.m-5 {
+  margin: 3rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-3 {
+  gap: 1rem;
+}
+
+.gap-4 {
+  gap: 1.5rem;
+}
+
+.gap-5 {
+  gap: 3rem;
+}
+
+.list-unstyled {
+  list-style: none;
+}
